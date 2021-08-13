@@ -12,7 +12,7 @@ variable "description" {
 variable "key_usage" {
     description = "Specifies the intended use of the key. Valid values: ENCRYPT_DECRYPT or SIGN_VERIFY. Defaults to ENCRYPT_DECRYPT"
     type = "string"
-    default = ENCRYPT_DECRYPT
+    default = "ENCRYPT_DECRYPT"
 }
 
 variable "customer_master_key_spec" {
