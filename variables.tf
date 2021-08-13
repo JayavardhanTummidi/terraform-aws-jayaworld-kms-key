@@ -48,5 +48,5 @@ variable "policy" {
 variable "tags" {
     description = "tags for identifying"
     type = map(string)
-    default = ""
+    default = {}
 }
