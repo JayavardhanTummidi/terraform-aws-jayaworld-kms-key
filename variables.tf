@@ -33,11 +33,6 @@ variable "enable_key_rotation" {
     default = "false"
 }
 
-variable "alias" {
-    description = "provide service name that you are creating this key for"
-    type = string
-}
-
 variable "policy" {
     description = "A valid policy JSON document. Although this is a key policy, not an IAM policy, an aws_iam_policy_document, in the form that designates a principal, can be used."
     type = string
